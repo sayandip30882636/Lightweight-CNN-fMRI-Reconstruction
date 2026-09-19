@@ -24,7 +24,7 @@ Our work introduces a lightweight U-Net architecture designed to reconstruct ima
 Since this repository focuses strictly on academic documentation and findings rather than source code, it includes the following files:
 
 - 📑 **`ICITI 2025.pdf`** — The main research paper containing the official conference proceedings.
-- 📝 **`Sayandip Ghosh Research.docm`** — Extended research documentation, literature review, and detailed experimental analysis.
+- 📝 **`Main Paper.pdf`** — Extended research documentation, literature review, and detailed experimental analysis.
 
 ---
 
