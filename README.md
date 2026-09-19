@@ -5,9 +5,9 @@
 This repository contains the official code and research documentation for the paper **"Lightweight Convolutional Neural Network for Visual Image Reconstruction from fMRI Using Limited Data"**, accepted/submitted to ICITI 2025.
 
 ## 🧠 Overview
-Reconstructing visual images from human brain activity (fMRI signals) is a highly complex challenge, especially when working with limited data. This Research introduces a lightweight Convolutional Neural Network (CNN) designed to efficiently decode and reconstruct images from the **GOD (Generic Object Decoding)** fMRI dataset. 
+This repository contains the implementation and findings for our research on resource-efficient visual image reconstruction from fMRI data[cite: 1]. While state-of-the-art deep learning models for brain decoding require massive GPU clusters and weeks of training, this project demonstrates that a lightweight, computationally efficient solution can achieve significant results[cite: 1]. 
 
-To evaluate performance and optimize computational efficiency, this repository provides two distinct pipeline variations: one leveraging **Principal Component Analysis (PCA)** for dimensionality reduction, and one without.
+Our work introduces a lightweight U-Net architecture designed to reconstruct images from the Generic Object Decoding (GOD) dataset[cite: 1]. By leveraging Principal Component Analysis (PCA) for dimensionality reduction alongside robust regularization (Mix-up augmentation), we successfully navigated the challenge of scarce fMRI data[cite: 1]. Our advanced model achieves meaningful structural similarity scores (SSIM $\approx$ 0.24) in just minutes of training, establishing a critical performance-to-cost benchmark in the neuroscience and computer vision fields[cite: 1].
 
 ## 📂 Repository Structure
 
